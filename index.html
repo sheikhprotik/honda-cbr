@@ -15,6 +15,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/58e5297ff2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -52,25 +54,232 @@
             </div>
         </nav>
         <!-- top-banner-section -->
-        <section class="container-fluid text-white" style="background-color: #264653;">
+        <section class="container-fluid" style="background-color: #264653;">
             <div class="row d-flex align-items-center p-5">
                 <div class="col-lg-6">
-                    <p>Computer-controlled digital transistorized with electronic advance</p>
-                    <h1>Honda CBR 300R</h1>
-                    <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings,<br> then the 2021 Honda
-                        CBR300R is your sweet spot between form and function.</p>
-                    <button class="btn text-white" type="submit" style="background-color: #E76F51;">Purchase</button>
+                    <div class="text-white">
+                        <p>Computer-controlled digital transistorized with electronic advance</p>
+                        <h1>Honda CBR 300R</h1>
+                        <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings,<br> then the 2021
+                            Honda
+                            CBR300R is your sweet spot between form and function.</p>
+                    </div>
+                    <!-- modal part starts-->
+                    <button type="button" class="btn btn-primary" style="background-color: #E76F51;"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Honda CBR 300R</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-da">
+                                    <p>
+                                        Displacement : 286 cc <br>
+                                        Maximum Power : 30.4 HP @ 8500 rpm <br>
+                                        Maximum Torque : 27.1 Nm @ 7250 rpm <br>
+                                        Number of Cylinders : 1 <br>
+                                        Number of Gears : 6 <br>
+                                        Seat Height : 785 mm <br>
+                                        Ground Clearance : 145 mm <br>
+                                        Kerb/Wet Weight : 164 kg <br>
+                                        Fuel Tank Capacity : 13 litres
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                                <!-- modal part end -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="col-lg-6">
                     <img src="images/header-bike.png" class="d-block w-100" alt="...">
                 </div>
+            </div>
         </section>
     </header>
     <main>
+        <!-- fetured bike section -->
+        <section class="container my-5">
+            <div class="text-center">
+                <h1 class="fw-bold">Fetured Bikes 2021</h1>
+                <small style="color:#E76F51;">Best bike collection</small>
+            </div>
+            <div class=" my-5">
+                <div class="row gx-5">
+                    <div class="col">
+                        <div class="p-3"><img src="images/feature-bike.jpg" alt="" width="288" height="243"
+                                style="filter: grayscale(100%);"></div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3"><img src="images//feature-bike.jpg" alt="" width="288" height="243"></div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3"><img src="images/feature-bike.jpg" alt="" width="288" height="243"
+                                style="filter: grayscale(100%);"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- client review section -->
         <section class="container">
+            <h1 class="fw-bold text-center">Happy <span style="color:#E76F51;">Client Says</span></h1>
             <div>
-                <h1>Fetured Bikes 2021</h1>
-                <small>Best bike collection</small>
+                <div class="testimonials">
+                    <div class="testimonial-inner">
+                        <div class="row">
+                            <div class="col">
+                                <div class="testimonial border">
+                                    <img src="images/user-1.png" alt="">
+                                    <p class="m-4">Well to be frank, i was sceptical about this bike when i first saw
+                                        it. It looked small and not so powerful. Boy was i wrong. From the moment you
+                                        give the throttle.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="text-primary fw-bold">Johny Walker</span>
+                                    <p class="fw-bold m-1">Banker</p>
+
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="testimonial border">
+                                    <img src="images/user-2.png" alt="">
+                                    <p class="m-4">outlet for this bike is less so service center will be a issue for
+                                        some 2- very friendly bike 3 - different from other 300cc bikes modern cafe
+                                        retro look 4 - so light weight
+                                        so easy to ride.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="text-primary fw-bold">Regina Miles</span>
+                                    <p class="fw-bold m-1">Doctor</p>
+
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="testimonial border">
+                                    <img src="images/user-3.jpg" alt="">
+                                    <p class="m-4">Cbr 300r is will be great because i have cbr 250 and it is amazing ..
+                                        I will advice cbr and r3 in place of ktm and duke.. It is budget bike, and in
+                                        covered 30 km in just 13 min so light weight.</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="text-primary fw-bold">Bella Michel</span>
+                                    <p class="fw-bold m-1">Teacher</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container my-5">
+            <h1 class="fw-bold text-center">Frequently <span style="color:#E76F51;">Asked Questions</span></h1>
+            <div class="d-flex justify-content-between m-5">
+                <div class="col-lg-6">
+                    <img src="images/faq.png" alt="" height="431" width="423">
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What are the most important things I should<br> know about riding a bike?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                        and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                        This will help you be a more focused and legally compliant bike rider. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How can I tell if my helmet is old and I need a<br> new one?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Bear in mind that if the helmet did its job most people would tell you that they
+                                        did not even hit their head, or did not hit their head that hard. And the thin
+                                        shells on most helmets now tend to hide any dents in the foam. But if you can
+                                        see marks on the shell or measure any foam crush at all, replace the helmet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>First of all, your tires are going to be deflated, it is normal after long
+                                        periods of time on storage. Inflate them close to the recommended level, you can
+                                        find that in the wall of the tire.
+                                        Make sure your brakes work. First do it off your bike, make sure the brake pads
+                                        make contact with the rim or the rotor appropriately. Then do it with while
+                                        riding your bike around the block. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What rules should I follow when riding my bike?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Be visible at all times. - Wear bright and visible clothes. Reflective stripes
+                                        ads viability. Always stay out of blind zones. Alert other drivers before
+                                        entering their blind zone.
+                                        Be predictable. - Others on the road must be able to predict your next move.
+                                        Give proper signals before changing a lane or taking deviation.
+                                        Everyone in the road is dumb and partially blind. - Well, just imagine so and be
+                                        prepared for an unexpected turn or braking.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
