@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif !important;
 }
+/* client review */
 .testimonials
 {
   padding: 40px 0;
@@ -48,6 +49,7 @@ body{
 {
   padding: 30px;
 }
+/* buttons */
 .btn-buy-now{
   background-image: linear-gradient(to bottom, #E76F51 0%, #E76F51 100%);
   color: white;
