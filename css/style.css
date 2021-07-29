@@ -48,3 +48,10 @@ body{
 {
   padding: 30px;
 }
+.btn-buy-now{
+  background-image: linear-gradient(to bottom, #E76F51 0%, #E76F51 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+}
